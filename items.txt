@@ -1,4 +1,4 @@
-A0:Doritos:1.56:3
+A0:Doritos:1.56:2
 B0:Lays:1.45:4
 A1:Cookies:1.25:5
 B1:Pretzels:1.38:5

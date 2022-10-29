@@ -1,18 +1,14 @@
-import dao.AuditDao;
-import dao.VendingMachineDao;
-import dao.VendingMachineDaoImpl;
-import dao.VendingMachinePersistenceException;
-import dto.Item;
+import com.katya.dao.AuditDao;
+import com.katya.dao.VendingMachinePersistenceException;
+import com.katya.dto.Item;
+import com.katya.service.VendingMachineItemInventoryException;
+import com.katya.service.VendingMachineService;
+import com.katya.service.VendingMachineServiceImpl;
+
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import service.VendingMachineItemInventoryException;
-import service.VendingMachineService;
-import service.VendingMachineServiceImpl;
 
-import java.math.BigDecimal;
-import java.util.LinkedHashMap;
-import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;

@@ -1,7 +1,7 @@
-import dao.VendingMachineDao;
-import dao.VendingMachineDaoImpl;
-import dao.VendingMachinePersistenceException;
-import dto.Item;
+import com.katya.dao.VendingMachineDao;
+import com.katya.dao.VendingMachineDaoImpl;
+import com.katya.dao.VendingMachinePersistenceException;
+import com.katya.dto.Item;
 
 import java.math.BigDecimal;
 import java.util.LinkedHashMap;

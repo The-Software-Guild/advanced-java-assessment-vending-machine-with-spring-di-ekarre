@@ -1,6 +1,6 @@
-import dao.VendingMachineDao;
-import dao.VendingMachinePersistenceException;
-import dto.Item;
+import com.katya.dao.VendingMachineDao;
+import com.katya.dao.VendingMachinePersistenceException;
+import com.katya.dto.Item;
 
 import java.util.Map;
 

@@ -1,5 +1,5 @@
-import dao.AuditDao;
-import dao.VendingMachinePersistenceException;
+import com.katya.dao.AuditDao;
+import com.katya.dao.VendingMachinePersistenceException;
 
 public class AuditDaoStubImpl implements AuditDao {
     @Override
