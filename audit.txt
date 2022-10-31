@@ -9,3 +9,9 @@
 2022-10-28T14:31:55.397 : User bought Item{ item Id=A0, name=Doritos, cost=1.56, inventory=0}
 2022-10-28T14:32:13.047 : Inventory of Item{ item Id=A0, name=Doritos, cost=1.56, inventory=0} has reached zero.2022-10-29T16:57:52.674 : Inventory of Item { item Id: A0, name: Doritos, price: 1.56, inventory: 2} decreased.
 2022-10-29T16:57:52.701 : User bought Item { item Id: A0, name: Doritos, price: 1.56, inventory: 2}
+2022-10-31T14:20:46.314 : Inventory of Item { item Id: A2, name: Fruit Snacks, price: 1.00, inventory: 4} decreased.
+2022-10-31T14:20:46.325 : User bought Item { item Id: A2, name: Fruit Snacks, price: 1.00, inventory: 4}
+2022-10-31T14:21:09.700 : Inventory of Item { item Id: B1, name: Pretzels, price: 1.38, inventory: 4} decreased.
+2022-10-31T14:21:09.701 : User bought Item { item Id: B1, name: Pretzels, price: 1.38, inventory: 4}
+2022-10-31T14:55:16.748 : Inventory of Item { item Id: A1, name: Cookies, price: 1.25, inventory: 4} decreased.
+2022-10-31T14:55:16.757 : User bought Item { item Id: A1, name: Cookies, price: 1.25, inventory: 4}

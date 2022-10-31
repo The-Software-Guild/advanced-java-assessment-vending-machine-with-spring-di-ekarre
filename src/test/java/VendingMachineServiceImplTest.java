@@ -8,6 +8,8 @@ import com.katya.service.VendingMachineServiceImpl;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -18,8 +20,14 @@ class VendingMachineServiceImplTest {
     private VendingMachineService service;
 
     public VendingMachineServiceImplTest() throws VendingMachinePersistenceException {
-        AuditDao auditDao = new AuditDaoStubImpl();
-        service = new VendingMachineServiceImpl(auditDao);
+        /*AuditDao auditDao = new AuditDaoStubImpl();
+        service = new VendingMachineServiceImpl(auditDao);*/
+
+        /*very similar to the app modifications except we are calling the Service Layer, not the controller
+        * Also, we don't need to call a method on the Service Layer, we just return the reference from above*/
+        ApplicationContext ctx =
+                new ClassPathXmlApplicationContext("applicationContext.xml");
+        service = ctx.getBean("serviceLayer", VendingMachineServiceImpl.class);
     }
 
     @BeforeEach
